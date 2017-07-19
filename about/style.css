@@ -1,0 +1,87 @@
+*{
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 15px 0px 30px 15px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+body{
+  background-color: #F2F1E8;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+
+li a {
+  color: #2B2F26;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+#logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+}
+h1{
+  padding: 20px;
+}
+.upper-body{
+  align: center;
+  padding: 0px 75px 10px 75px;
+}
+.history-text{
+  align: center;
+  padding: 15px 75px 75px 75px;
+}
+
+.center{
+
+  background-image: url("../images/background-3.jpg");
+  max-width: 300px;
+  max-height: 200px;
+
+
+}
+h3{
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+.table-plan{
+  align: center;
+  padding: 15px 75px 75px 75px;
+  margin-left: 250px;
+}
+table, th, td{
+  border: 1px solid darkgreen;
+  border-collapse: collapse;
+  align: center;
+
+
+}
+.bottom{
+  align: center;
+  padding: 15px 75px 75px 75px;
+}
+
+
+
+
+
+.footer-text{
+  background-color: #20241D;
+  height: 30px;
+  padding: 10px;
+  color: #EFEBCB;
+  text-align: left;
+}
